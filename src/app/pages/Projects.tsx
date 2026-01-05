@@ -118,9 +118,8 @@ export default function Projects() {
                   >
                     {/* Check if project has multiple images (FoodIQ / Teachback) */}
                     <div className="relative aspect-16/10 rounded-2xl bg-foreground/5 border border-foreground/10 p-4 md:p-8 flex items-center justify-center overflow-hidden">
-                      {/* 3 Images Layout (FoodIQ / Teachback) */}
                       {/* Laptop Image (Center Back) */}
-                      <div className="relative w-[90%] md:w-[85%] h-auto z-10 shadow-2xl rounded-lg transition-transform duration-700 group-hover/image:scale-[1.02]">
+                      <div className="relative w-[90%] md:w-[85%] h-auto z-10 transition-transform duration-700 group-hover/image:scale-[1.02]">
                         <Image
                           src={project.images[0]}
                           alt={`${project.title} Desktop`}
@@ -131,7 +130,7 @@ export default function Projects() {
                       </div>
 
                       {/* Mobile 1 (Left Front) */}
-                      <div className="absolute bottom-[-10%] md:bottom-[-5%] left-[2%] md:left-[5%] w-[25%] md:w-[22%] z-20 shadow-2xl rounded-4xl border-4 border-gray-900 transition-transform duration-700 group-hover/image:translate-y-[-10px] group-hover/image:rotate-[-5deg]">
+                      <div className="absolute bottom-[-10%] md:bottom-[-5%] left-[2%] md:left-[5%] w-[25%] md:w-[22%] z-20 transition-transform duration-700 group-hover/image:translate-y-[-10px] group-hover/image:rotate-[-5deg]">
                         <Image
                           src={project.images[1]}
                           alt={`${project.title} Mobile 1`}
@@ -142,7 +141,7 @@ export default function Projects() {
                       </div>
 
                       {/* Mobile 2 (Right Front) */}
-                      <div className="absolute bottom-[-10%] md:bottom-[-5%] right-[2%] md:right-[5%] w-[25%] md:w-[22%] z-20 shadow-2xl rounded-4xl border-4 border-gray-900 transition-transform duration-700 group-hover/image:translate-y-[-10px] group-hover/image:rotate-[5deg]">
+                      <div className="absolute bottom-[-10%] md:bottom-[-5%] right-[2%] md:right-[5%] w-[25%] md:w-[22%] z-20 transition-transform duration-700 group-hover/image:translate-y-[-10px] group-hover/image:rotate-[5deg]">
                         <Image
                           src={project.images[2]}
                           alt={`${project.title} Mobile 2`}

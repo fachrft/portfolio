@@ -11,7 +11,7 @@ export default function Preloader() {
 
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000);
+    }, 2300);
 
     const removeTimer = setTimeout(() => {
       setIsAnimating(false);
