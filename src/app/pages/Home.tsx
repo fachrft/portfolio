@@ -18,7 +18,7 @@ export default function Home() {
 
           {/* Heading */}
           <h1 className="text-4xl sm:text-5xl lg:text-7xl">
-            Hi I&apos;m FachrifatTTTTT{" "}
+            Hi I&apos;m Fachrifat{" "}
             <span className="inline-block animate-wave origin-bottom-right">
               👋
             </span>
