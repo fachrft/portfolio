@@ -42,39 +42,17 @@ export default function Navbar() {
             aria-label="FZT Logo"
           >
             <svg
-              width="50"
-              height="30"
-              viewBox="0 0 50 30"
+              width="48"
+              height="48"
+              viewBox="0 0 64 64"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="text-foreground transition-transform duration-300 group-hover:scale-105"
+              aria-hidden="true"
+              className="transition-transform duration-300 group-hover:scale-105"
             >
-              {/* F */}
-              <path
-                d="M5 25V5H15M5 15H12"
-                stroke="currentColor"
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              {/* Z */}
-              <path
-                d="M20 5H30L20 25H30"
-                stroke="currentColor"
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              {/* T */}
-              <path
-                d="M35 5H45M40 5V25"
-                stroke="currentColor"
-                strokeWidth="3"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              {/* Dot */}
-              <circle cx="48" cy="25" r="2" fill="currentColor" />
+              <rect x="2" y="2" width="60" height="60" rx="18" fill="#171717" />
+              <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="17.25" stroke="#f4b95e" strokeOpacity=".65" strokeWidth="1.5" />
+              <path d="M12 43V21h11v3H15v6h7v3h-7v10zm13 0v-3l10-16h-9v-3h13v3L29 40h10v3zm18 0V24h-5v-3h14v3h-6v19z" fill="white" />
+              <circle cx="51" cy="42" r="2" fill="#f4b95e" />
             </svg>
           </Link>
 
